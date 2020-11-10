@@ -1,0 +1,6 @@
+<application>
+  <component name="Git.Application.Settings">
+    <option name="myPathToGit" value="/usr/bin/git" />
+    <option name="USE_CREDENTIAL_HELPER" value="true" />
+  </component>
+</application>

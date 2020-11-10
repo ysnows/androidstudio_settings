@@ -1,0 +1,18 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping ext="webp" type="Image" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping ext="mp3" type="Native" />
+      <mapping pattern="pass" type="PLAIN_TEXT" />
+      <mapping pattern="1004" type="PLAIN_TEXT" />
+      <mapping pattern="1002" type="PLAIN_TEXT" />
+      <mapping pattern="xposed_init" type="PLAIN_TEXT" />
+      <mapping pattern="wx_auto_pocket" type="PLAIN_TEXT" />
+      <mapping pattern="update" type="PLAIN_TEXT" />
+      <mapping pattern="launch_screenrecorder" type="PLAIN_TEXT" />
+      <mapping pattern="命名规范" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

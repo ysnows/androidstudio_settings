@@ -1,0 +1,7 @@
+<templateSet group="AndroidKotlin">
+  <template name="toast" value="android.widget.Toast.makeText($context$, &quot;$text$&quot;, Toast.LENGTH_SHORT).show()" description="Create a new Toast" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="context" expression="variableOfType(&quot;android.content.Context&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

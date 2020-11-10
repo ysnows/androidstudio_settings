@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="&lt;abbreviation&gt;" value="&lt;com.aspsine.irecyclerview.IRecyclerView android:id=&quot;@+id/iRecyclerView&quot;&#10;                                         xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;                                         xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;&#10;                                         android:layout_width=&quot;match_parent&quot;&#10;                                         android:layout_height=&quot;match_parent&quot;&#10;                                         android:background=&quot;@color/white&quot;&#10;                                         app:loadMoreEnabled=&quot;true&quot;&#10;                                         app:loadMoreFooterLayout=&quot;@layout/layout_irecyclerview_load_more_footer&quot;&#10;                                         app:refreshEnabled=&quot;true&quot;&#10;                                         app:refreshHeaderLayout=&quot;@layout/layout_irecyclerview_refresh_header&quot;&#10;/&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>

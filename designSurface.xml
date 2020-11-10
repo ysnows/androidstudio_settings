@@ -1,0 +1,27 @@
+<application>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/compose-model-1604846437595.xml" value="0.22114402451481102" />
+        <entry key="../../../../layout/compose-model-1604735617006.xml" value="0.14722222222222223" />
+        <entry key="../../../../layout/compose-model-1604736008406.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1604736269287.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1604736459578.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1604737776299.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1604737975687.xml" value="0.3925925925925926" />
+        <entry key="../../../../layout/compose-model-1604847169839.xml" value="0.5" />
+        <entry key="../../../../layout/compose-model-1604847208853.xml" value="0.2324074074074074" />
+        <entry key="../../../../layout/compose-model-1604847217875.xml" value="1.0" />
+        <entry key="../../../../layout/compose-model-1604847229724.xml" value="0.514344262295082" />
+        <entry key="../../../../layout/compose-model-1604847243876.xml" value="0.2324074074074074" />
+        <entry key="../../../../layout/compose-model-1604899290687.xml" value="0.28888888888888886" />
+        <entry key="../../../../layout/compose-model-1604932822057.xml" value="0.2861111111111111" />
+        <entry key="../../../../layout/compose-model-1604978471304.xml" value="0.2824074074074074" />
+        <entry key="../../../../layout/custom_preview.xml" value="0.22114402451481102" />
+        <entry key="app/src/main/res/layout/activity_compose_in_classic_android.xml" value="0.11141304347826086" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19427083333333334" />
+        <entry key="app/src/main/res/layout/fragment_index.xml" value="0.24089635854341737" />
+      </map>
+    </option>
+  </component>
+</application>

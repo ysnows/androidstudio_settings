@@ -1,0 +1,42 @@
+<templateSet group="Android">
+  <template name="instance" value="&#10;private static $Fragment$ $name$ = null;&#10;&#10;public static $Fragment$ instance() {&#10;    if ($name$ == null) {&#10;        $name$ = new $Fragment$();&#10;    }&#10;    return $name$;&#10;}" description="create a new Fragment instance with arguments" toReformat="true" toShortenFQNames="true">
+    <variable name="Fragment" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="rxtag" value="@Subscribe(tags = {@Tag($EXPR$)})&#10;public void $method$(){&#10;&#10;}" description="rxbus tag" toReformat="true" toShortenFQNames="true">
+    <variable name="EXPR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="method" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="nemp" value="if (!TextUtils.isEmpty($str$)) {&#10;            &#10;        }" description="判断字符串不为空" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="str" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gext" value=" Bundle extras = getIntent().getExtras();&#10;        if (extras != null) {&#10;            $content$&#10;        }" description="获取bundle并判断不是null" toReformat="true" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="emp" value="if (android.text.TextUtils.isEmpty($str$)) {&#10;            $content$&#10;        }" description="判断字符串为空" toReformat="true" toShortenFQNames="true">
+    <variable name="str" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="bus" value="com.ysnows.utils.RxBus.bus().toObserverable(com.ysnows.utils.Msg.class)&#10;                .doOnNext(msg -&gt; {&#10;                    $content$&#10;                })&#10;                .compose(bindToLifeCircle())&#10;                .subscribe();" description="注册bus" toReformat="true" toShortenFQNames="true" useStaticImport="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
