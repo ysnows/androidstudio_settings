@@ -17,10 +17,14 @@
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
+  <action id="ActivateLogcatToolWindow">
+    <keyboard-shortcut first-keystroke="meta 6" />
+  </action>
   <action id="ActivateMessagesToolWindow" />
   <action id="ActivatePreviewToolWindow">
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
+  <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateResourcesExplorerToolWindow">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
