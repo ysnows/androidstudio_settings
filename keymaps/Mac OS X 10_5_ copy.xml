@@ -218,6 +218,10 @@
     <keyboard-shortcut first-keystroke="ctrl p" />
   </action>
   <action id="RecentLocations" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift f6" />
+    <keyboard-shortcut first-keystroke="meta alt 6" />
+  </action>
   <action id="ResourceExplorer.show" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="meta alt r" />
