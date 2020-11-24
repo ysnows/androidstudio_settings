@@ -25,9 +25,6 @@
     <keyboard-shortcut first-keystroke="meta 4" />
   </action>
   <action id="ActivateProblemsViewToolWindow" />
-  <action id="ActivateResourcesExplorerToolWindow">
-    <keyboard-shortcut first-keystroke="shift meta w" />
-  </action>
   <action id="ActivateRunToolWindow" />
   <action id="ActivateSympliToolWindow">
     <keyboard-shortcut first-keystroke="meta 2" />
@@ -57,6 +54,9 @@
   <action id="CallHierarchy" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="CheckinProject" />
+  <action id="CloseProject">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
   <action id="ConvertJavaToKotlin" />
   <action id="CopyPaths" />
   <action id="Debug" />
